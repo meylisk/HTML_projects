@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming Soon</title>
+    <style>
+        .container {
+          position: relative;
+        }
+        
+        .topleft {
+          position: absolute;
+          top: 8px;
+          left: 16px;
+          font-size: 18px;
+        }
+
+        .bottomleft {
+          position: absolute;
+          bottom: 8px;
+          left: 16px;
+          font-size: 18px;
+        }
+
+        .topright {
+          position: absolute;
+          top: 8px;
+          right: 16px;
+          font-size: 18px;
+        }
+
+        .bottomright {
+          position: absolute;
+          bottom: 8px;
+          right: 16px;
+          font-size: 18px;
+        }
+
+        .center {
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            text-align: center;
+            font-size: 18px;
+        }
+
+        img { 
+          width: 100%;
+          height: auto;
+          opacity: 1;
+        }
+
+        .text {
+            color: white;
+            font-size: 50px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-shadow: 2px 2px 4px #000000;
+        }
+
+        #big-text {
+            color: white;
+            font-size: 70px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-shadow: 2px 2px 4px #000000;
+        }
+
+        #small-text {
+            color: white;
+            font-size: 18px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-shadow: 2px 2px 4px #000000;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img src="https://source.unsplash.com/DFfNVwhOIWQ" alt="Cinque Terre" width="1000" height="300">
+        <div class="topleft text">Logo</div>
+        <div class="bottomleft text">Powered by</div>
+        <div class="topright text">About</div>
+        <div class="bottomright text">Seytech.co</div>
+        <div class="center" id="big-text">COMING SOON
+            <hr width="250px">
+            <div id="small-text">35 days left</div>
+        </div>
+    </div>    
+  
+</body>
+</html>
+

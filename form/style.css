@@ -1,0 +1,27 @@
+body {
+    background-color: lightskyblue;
+    text-align: center;
+}
+
+main {
+    text-align: center;
+    background-color: rgb(195, 199, 204);
+    border-radius: 10px;
+}
+
+ul {
+    display: inline-block;
+    list-style: none;
+    text-align: left;
+}
+
+.vertical {
+    /* vertical-align: top; */
+    /* justify-content: start;     */
+}
+
+button {
+    background-color: lightskyblue;
+}
+
+main
